@@ -7,7 +7,7 @@
 		content="width=device-width, 
 				initial-scale=1.0"> 
 
-	<style> 
+<style> 
 		* { 
 			margin: 0; 
 			padding: 0; 
@@ -63,7 +63,7 @@
 			border-radius: 5px; 
 			text-align: center; 
 		} 
-	</style> 
+</style> 
 </head> 
 
 <body> 
@@ -76,13 +76,11 @@
 				<input type="number"
 					id="fahrenheit"> 
 			</div> 
-
-			<div class="col"> 
+		<div class="col"> 
 				<label>Celsius</label> 
 				<input type="number"
 					id="celsius"> 
 			</div> 
-
 			<div class="col"> 
 				<label>Kelvin</label> 
 				<input type="number"
@@ -90,7 +88,6 @@
 			</div> 
 		</div> 
 	</div> 
-
 	<script> 
 		let celsius = 
 			document.getElementById('celsius'); 
@@ -101,7 +98,6 @@
 		celsius.oninput = function () { 
 			let f = (parseFloat(celsius.value) * 9) / 5 + 32; 
 			fahrenheit.value = parseFloat(f.toFixed(2)); 
-
 			let k = (parseFloat(celsius.value) + 273.15); 
 			kelvin.value = parseFloat(k.toFixed(2)); 
 		} 
@@ -109,7 +105,6 @@
 			let c = ((parseFloat( 
 				fahrenheit.value) - 32) * 5) / 9; 
 			celsius.value = parseFloat(c.toFixed(2)); 
-
 			let k = (parseFloat( 
 				fahrenheit.value) - 32) * 5 / 9 + 273.15; 
 			kelvin.value = parseFloat(k.toFixed(2)); 
@@ -118,7 +113,6 @@
 			let f = (parseFloat( 
 				kelvin.value) - 273.15) * 9 / 5 + 32; 
 			fahrenheit.value = parseFloat(f.toFixed(2)); 
-
 			let c = (parseFloat(kelvin.value) - 273.15); 
 			celsius.value = parseFloat(c.toFixed(2)); 
 		} 
