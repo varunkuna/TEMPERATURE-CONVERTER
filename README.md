@@ -6,15 +6,13 @@
 	<meta name="viewport"
 		content="width=device-width, 
 				initial-scale=1.0"> 
-
-<style> 
+	<style> 
 		* { 
 			margin: 0; 
 			padding: 0; 
 			font-family: 
 				Verdana, Geneva, Tahoma, sans-serif; 
 		} 
-
 		.container { 
 			width: 100%; 
 			height: 100vh; 
@@ -26,14 +24,12 @@
 			justify-content: center; 
 			align-items: center; 
 		} 
-
 		.container h1 { 
 			color: black; 
 			font-weight: 700; 
 			font-size: 25px; 
 			text-align: center; 
 		} 
-
 		.converter-row { 
 			display: flex; 
 			width: 40%; 
@@ -43,19 +39,16 @@
 			border-radius: 10px; 
 			padding: 50px 20px; 
 		} 
-
 		.col { 
 			flex-basis: 32%; 
 			text-align: center; 
 		} 
-
 		.col label { 
 			font-size: 15px; 
 			font-weight: 500; 
 			margin-bottom: 10px; 
 			color: #fff; 
 		} 
-
 		.col input { 
 			width: 150px; 
 			height: 30px; 
