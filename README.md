@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <html lang="en"> 
 <head> 
@@ -58,8 +57,7 @@
 		} 
 	</style> 
 </head> 
-
-<body> 
+	<body> 
 	<div class="container"> 
 		<h1>K.VARUN @ BHARATINTERN<br> 
 			Temperature Converter</h1> 
