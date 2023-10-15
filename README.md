@@ -17,7 +17,7 @@
 			height: 100vh; 
 			background-image: 
 				linear-gradient(rgb(140, 219, 140), 
-				rgb(20, 141, 20)); 
+				                              rgb(20, 141, 20)); 
 			display: flex; 
 			flex-direction: column; 
 			justify-content: center; 
